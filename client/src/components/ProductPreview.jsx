@@ -242,7 +242,7 @@ const ProductPreview = () => {
                 className="rounded-none border-b border-blue-gray-50 bg-transparent p-0"
                 indicatorProps={{
                   className:
-                    "bg-transparent  border-b-2 border-gray-900 shadow-none rounded-none",
+                    "bg-transparent p-2 border-b-2 border-gray-900 shadow-none rounded-none",
                 }}
               >
                 {data.map(({ label, value }) => (
